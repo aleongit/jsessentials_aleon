@@ -154,6 +154,10 @@ a:active {
   color: black;
 }
 
+.ini {
+  padding: 1rem;
+}
+
 #sortida {
   display: block;
   overflow-x: auto;
@@ -163,8 +167,12 @@ a:active {
   margin: 1em 0;
 }
 
-pre {
-  display: block;
+p {
+  text-align: justify;
+}
+
+li {
+  list-style-type: none;
 }
 
 main {
@@ -196,7 +204,7 @@ article {
 .centerflex {
   display: flex;
   justify-content: center;
-} 
+}
 
 /* table _______________________________________________ */
 table {
@@ -220,6 +228,8 @@ td {
 /*td:nth-child(even) {background-color: #f2f2f2;}*/
 
 td:hover {
+  color: black;
+  font-weight: bolder;
   background-color: whitesmoke;
 }
 
@@ -372,7 +382,6 @@ footer {
   border: 1px solid black;
   opacity: 0;
 }
-
 
 .jq {
   position: relative;

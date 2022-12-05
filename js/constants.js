@@ -1,5 +1,8 @@
 "use strict";
 
+let text = "";
+let sortida ="";
+
 const ESSENTIALS = {
   11: {
     src: "js/11.js",
@@ -50,6 +53,47 @@ const ESSENTIALS = {
     text: `Fes una calculadora demani 2 nombres per pantalla, 
     i després demani l’operació aritmètica a realitzar (+ - * / %) 
     i finalment mostri amb una alerta el resultat.
+  `,
+  },
+
+  21: {
+    src: "js/21.js",
+    title: "Strings i Funcions",
+    text: `Escriviu una funció JavaScript que giri un número que ha introduit l’usuari.
+    Exemple x =123456789; x=987654321;
+  `,
+  },
+
+  22: {
+    src: "js/22.js",
+    title: "Strings i Funcions",
+    text: `Escriviu una funció que és capaç de tractar de diferents maneres un array 
+    que li passem com a paràmetre, aquest array és una llista d’anys de naixement. 
+    Els diferents càlculs que ha de fer són:
+    <ul>
+        <li><strong>1.</strong>l’edat</li>
+        <li><strong>2.</strong>si són majors d’edat un array de booleans (cert o fals)</li>
+        <li><strong>3.</strong>quants anys els falta per jubilar-se (si ja ho estan retorna -1)</li>
+    </ul>
+    El resultat és mostrarà per la consola.
+    L’estructura ha de ser una funció genèrica anomenada per exemple “tractaAnys()” 
+    que rep per paràmetre l’array amb els anys de naixement 
+    i la funció que tracta aquests anys. 
+    Escriu 3 crides, amb la funció definida a part, amb la funció definida a la crida, 
+    i amb la funció definida a la crida, però de fletxa.
+  `,
+  },
+
+  23: {
+    src: "js/23.js",
+    title: "Strings i Funcions",
+    text: `Escriviu una funció JavaScript que donada una cadena separada per comes 
+    generi un array de dates (string): 
+    Exemple: dates([14, 15, 16, 17], ‘juny’,’2020’)  genera un array amb els següents elements:
+    14-juny-2020
+    15-juny-2020
+    16-juny-2020
+    17-juny-2020;
   `,
   },
 

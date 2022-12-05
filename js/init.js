@@ -1,10 +1,14 @@
 "use strict";
 
 const showSection = (num) => {
-  //enunciat
+  //neteja
   $(".title").empty();
   $(".subtitle").empty();
   $(".text").empty();
+
+  text = ">_";
+  sortida = document.getElementById("sortida");
+  sortida.innerHTML = text;
 
   //amb jquery no anava
   if (ESSENTIALS[num]?.src) {
@@ -53,7 +57,7 @@ $(function () {
     //afageix butó
     let buto = `<a class="button" id="button${key}">${key}</a>`;
     $("#menu").append(buto);
-    
+
     //crea crida butó
     $(`#button${key}`).on("click", () => {
       showSection(key);

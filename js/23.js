@@ -29,6 +29,7 @@ function generaDates(d, m, a) {
 let dates = generaDates(dies, mes, any);
 //llisto array
 
+text = "";
 for (let i = 0; i < dates.length; i++) {
   text += "<h2>" + dates[i] + "</h2>";
 }

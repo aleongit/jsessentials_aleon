@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <!-- meta idioma -->
+
+  <head>
+    <meta charset="utf-8" />
+    <!--meta joc de caràcters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- etiqueta per HTML responsive -->
+    <meta name="description" content="" />
+    <meta name="author" content="Aleix Leon" />
+
+    <title>JS Essentials by aleon</title>
+    <!-- títol de la web -->
+
+    <!-- jquery en head abans estils -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+
+    <!-- js -->
+    <script
+      type="text/javascript"
+      src="js/constants.js"
+      charset="utf-8"
+    ></script>
+    <script type="text/javascript" src="js/init.js" charset="utf-8"></script>
+    <!--<script type="text/javascript" src="js/11.js" charset="utf-8"></script>-->
+
+    <!-- estils aleon -->
+    <link rel="stylesheet" type="text/css" href="css/aleon.css" />
+
+    <!-- CSS interns -->
+    <style></style>
+  </head>
+
+  <body>
+    <!-- container_________________________________________________________________-->
+    <div class="container">
+      <!-- menú capçalera____________________________________________________________-->
+      <header>
+        <div class="marca">
+          <a class="sense_deco" href="">
+            <h2 class="logo">
+              JS Essentials
+              <span class="blau">{<span class="negre">aleon</span>}</span>
+            </h2>
+          </a>
+        </div>
+        <nav id="menu">
+          <!--<a class='button' href='test.php' >Test</a>-->
+          <a class="button">Home</a>
+          <a class="button">About</a>
+        </nav>
+
+        <!-- fi menú cap __________________________________________________________-->
+      </header>
+
+      <div class="ini">
+        <h2 class="title">* title *</h2>
+        <h3 class="subtitle">* subtitle *</h3>
+        <pre class="text">* text *</pre>
+        <code id="sortida">>_</code>
+      </div>
+
+      <main>
+        <!-- 0______________________________________________________________ -->
+        <section id="section0">
+          <code>* secció 0 * </code>
+        </section>
+
+        <!-- 11______________________________________________________________ -->
+        <section id="section11">
+          <article>
+            <div class="centerflex">
+              <button onclick="script11()">Click!</button>
+            </div>
+          </article>
+        </section>
+
+        <!-- 12______________________________________________________________ -->
+        <section id="section12">
+          <article>
+            <div class="centerflex">
+              <button onclick="script12()">Click!</button>
+            </div>
+          </article>
+        </section>
+
+        <!-- 13______________________________________________________________ -->
+        <section id="section13">
+          <article>
+            <div class="centerflex">
+              <button onclick="script13()">Click!</button>
+            </div>
+          </article>
+        </section>
+
+        <!-- 14______________________________________________________________ -->
+        <section id="section14">
+          <article>
+            <div class="centerflex">
+              <button onclick="script14()">Click!</button>
+            </div>
+          </article>
+        </section>
+
+        <!-- 15______________________________________________________________ -->
+        <section id="section15">
+          <article>
+            <div class="centerflex">
+              <button onclick="script15()">Click!</button>
+            </div>
+          </article>
+        </section>
+
+        <!-- 16______________________________________________________________ -->
+        <section id="section16">
+          <article>
+            <div class="centerflex">
+              <button onclick="script16()">Click!</button>
+            </div>
+          </article>
+        </section>
+
+        <!-- 1001____________________________________________________________ -->
+        <section id="section1001">
+          <!-- 1 -->
+          <article>
+            <div class="centerflex">
+              <button id="b1">Scroll cap abaix</button>
+            </div>
+          </article>
+
+          <!-- 3 -->
+          <article>
+            <input id="check" name="check" type="checkbox" />
+            <label for="check"> Accepto tot el què em diguin</label><br />
+            <input id="b3" type="submit" value="Accepto" disabled />
+          </article>
+
+          <!-- 4 -->
+          <article>
+            <p id="text4">Text intermitent</p>
+          </article>
+
+          <!-- 5 -->
+          <article>
+            <label> <b>* Màxim 15 caràcters *</b></label
+            ><br />
+            <input id="text5" name="text5" type="text" maxlength="15" /><br />
+            <label id="falten"> * Falten 15 caràcters *</label><br />
+          </article>
+
+          <!-- 7 -->
+          <article>
+            <a
+              id="link"
+              target="_blank"
+              href="https://ca.wikipedia.org/wiki/JQuery"
+              >JQuery Wikipedia</a
+            >
+            <div class="centerflex">
+              <button id="b7">Deshabilitar el link de sobre</button>
+            </div>
+          </article>
+
+          <!-- 8 -->
+          <article>
+            <div class="centerflex">
+              <button id="temps">* CLICA'M *</button>
+            </div>
+          </article>
+
+          <!-- 9 -->
+          <article>
+            <div class="centerflex">
+              <button id="butobola">Compte Bola!</button>
+            </div>
+            <div class="centerflex">
+              <div class="containerbola">
+                <div id="bola"></div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer>
+        <p>© Aleix Leon 2021-22</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -15,6 +15,7 @@ const ESSENTIALS = {
   si són iguals,o bé quin és el més gran i quin és el més petit. (feu el programa robust)
   Afegeix que si el nombres no són de tipus nombre o bé són negatius, que els torni a demanar.
   `,
+    order: 1,
   },
 
   12: {
@@ -25,6 +26,7 @@ const ESSENTIALS = {
     És a dir, l’usuari anirà introduint nombres, fins que introdueix un nombre negatiu. 
     Finalment mostra la mitjana i l’acumulat de tots els nombres positius.
   `,
+    order: 1,
   },
 
   13: {
@@ -33,6 +35,7 @@ const ESSENTIALS = {
     text: `Mostra en la pàgina tots els nombres imparells i múltiples de 5 o de 7 
     entre dos nombres que l’usuari introdueix per teclat. Fés que el programa sigui robust.
   `,
+    order: 1,
   },
 
   14: {
@@ -41,6 +44,7 @@ const ESSENTIALS = {
     text: `Mostrar per la pàgina web tots els divisors d’un nombre positiu 
     que l’usuari introdueix per teclat.
   `,
+    order: 1,
   },
 
   15: {
@@ -49,6 +53,7 @@ const ESSENTIALS = {
     text: `Mostra per pantalla la taula de multiplicar d’un nombre 
     que l’usuari introdueix per teclat. El nombre ha de ser positiu i entre l’1 i el 10.
   `,
+    order: 1,
   },
 
   16: {
@@ -58,6 +63,7 @@ const ESSENTIALS = {
     i després demani l’operació aritmètica a realitzar (+ - * / %) 
     i finalment mostri amb una alerta el resultat.
   `,
+    order: 1,
   },
 
   21: {
@@ -66,6 +72,7 @@ const ESSENTIALS = {
     text: `Escriviu una funció JavaScript que giri un número que ha introduit l’usuari.
     Exemple x =123456789; x=987654321;
   `,
+    order: 2,
   },
 
   22: {
@@ -86,6 +93,7 @@ const ESSENTIALS = {
     Escriu 3 crides, amb la funció definida a part, amb la funció definida a la crida, 
     i amb la funció definida a la crida, però de fletxa.
   `,
+    order: 2,
   },
 
   23: {
@@ -99,6 +107,7 @@ const ESSENTIALS = {
     16-juny-2020
     17-juny-2020;
   `,
+    order: 2,
   },
 
   24: {
@@ -107,6 +116,7 @@ const ESSENTIALS = {
     text: `Fes una funció Javascript que donada una cadena de text: “abska” 
     retorni la cadena ordenada alfabèticament.
   `,
+    order: 2,
   },
 
   25: {
@@ -115,6 +125,7 @@ const ESSENTIALS = {
     text: `Fes una funció en javaScript que li passem una frase 
     i retorna la paraula més llarga de la frase.
   `,
+    order: 2,
   },
 
   26: {
@@ -123,6 +134,7 @@ const ESSENTIALS = {
     text: `Fes una funció en javascript que donada una quantitat d’euros ens retorni el seu valor 
     en tres tipus de monedes. Utilitza les funcions de callBack, (és a dir funcions com expressions).
   `,
+    order: 2,
   },
 
   27: {
@@ -131,6 +143,7 @@ const ESSENTIALS = {
     text: `Fes una funció en javascript que retorni el nombre de vegades que un determinat caràcter 
     apareix en un string.
   `,
+  order: 2,
   },
 
   28: {
@@ -139,6 +152,7 @@ const ESSENTIALS = {
     text: `Definiu una funció de fletxa dividirXDos que accepta un número i retorna aquest número dividit per 2.
     Aplica aquesta funció a tots els elements d’un array.
   `,
+    order: 2,
   },
 
   29: {
@@ -147,6 +161,7 @@ const ESSENTIALS = {
     text: `Crea una funció que rebi un paràmetre, 1 dni, i retorni la lletra. 
     Si el dni passat té algun error retornarà -1.
   `,
+    order: 2,
   },
 
   210: {
@@ -155,6 +170,7 @@ const ESSENTIALS = {
     text: `Crea una funció que generi 100 números aleatoris entre 1 i 1000 que no es repeteixin 
     i després mostra'ls per consola ordenats.
   `,
+    order: 2,
   },
 
   31: {
@@ -163,6 +179,7 @@ const ESSENTIALS = {
     text: `Escriviu una funció  que crea una nou array amb valors donats.
     <br><strong>* Resultat esperat: (3, 'a') => ['a', 'a', 'a']</strong>
   `,
+    order: 3,
   },
 
   32: {
@@ -172,6 +189,7 @@ const ESSENTIALS = {
     com ara cadenes buides, falses, indefinides, zero, nul·les
     <br><strong>* Resultat esperat: [0, 1, false, 2, undefined, '', 3, null] => [1, 2, 3]</strong>
   `,
+    order: 3,
   },
 
   33: {
@@ -179,6 +197,7 @@ const ESSENTIALS = {
     title: "Arrays",
     text: `Fes una funció javascript per clonar un array que li passem com a paràmetre.
   `,
+    order: 3,
   },
 
   34: {
@@ -193,6 +212,7 @@ const ESSENTIALS = {
     <br>console.log(primers([7, 9, 0, -2],3)); retorna [7, 9, 0]
     <br>console.log(primers([7, 9, 0, -2],-4)); retorna []</strong>
   `,
+    order: 3,
   },
 
   35: {
@@ -206,6 +226,7 @@ const ESSENTIALS = {
     <li><strong>>></strong> una funció que retorna el més petit
     </ul>
   `,
+    order: 3,
   },
 
   36: {
@@ -216,6 +237,7 @@ const ESSENTIALS = {
     <br><strong>var arr = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3]
     Sortida a - 5 vegades</strong>.
   `,
+    order: 3,
   },
 
   37: {
@@ -233,6 +255,7 @@ const ESSENTIALS = {
     <br><strong>Proveu la següent entrada per fer les proves : 
      1000, 101, 121, 13, 15, 11111</strong>
   `,
+    order: 3,
   },
 
   38: {
@@ -255,6 +278,7 @@ const ESSENTIALS = {
     </ul>
     Cal utilitzar funcions de fletxa, operador ternari, reutilitzar el codi...
   `,
+    order: 3,
   },
 
   39: {
@@ -264,6 +288,7 @@ const ESSENTIALS = {
     retorni la intersecció, és a dir els elements que estan en ambdós arrays, 
     aquest array ha de ser únic (cada element només pot aparèixer una vegada).
   `,
+    order: 3,
   },
 
   310: {
@@ -272,6 +297,7 @@ const ESSENTIALS = {
     text: `Fes una funció que comprovi que un array és homogeni,
     és a dir que tots els elements són del mateix tipus.
   `,
+    order: 3,
   },
 
   1001: {
@@ -290,5 +316,6 @@ const ESSENTIALS = {
       que rebota al final de la finestra 3 vegades, 
       i cada vegada puja menys i es desplaça cap a la dreta. S’activarà amb un botó.
     `,
+    order: 10,
   },
 };

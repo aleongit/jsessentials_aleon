@@ -43,24 +43,55 @@ $(function () {
   //init section
   showSection(0);
 
-  //change section
+  /*order by key*/
   /*
-  $("#button11").on("click", () => {
-    showSection(11);
-  });
+  const ordered = Object.keys(ESSENTIALS).sort().reduce(
+    (obj, key) => { 
+      obj[`${key}`] = ESSENTIALS[key]; 
+      return obj;
+    }, 
+    {}
+  );
+  console.log(ordered);
   */
 
+  /*order by property*/
+  /*
+  al no ser una ARRAY d'objectes iguals,
+  creem una array d'objectes amb nom'és key i ordenació (order)
+  */
+  const ordered = Object.entries(ESSENTIALS).map(([k, v]) => {
+    let obj = {
+      key: parseInt(k),
+      order: v.order,
+    };
+    return obj;
+  });
+
+  /*ordenació per una propietat de l'array d'objectes*/
+  console.log(ordered[0]);
+  ordered.sort((a, b) => (a.order > b.order ? 1 : -1));
+  console.log(ordered);
+
+  /*doble ordenació*/
+  ordered.sort((a, b) =>
+    a.order > b.order ? 1 : a.order === b.order ? (a.key > b.key ? 1 : -1) : -1
+  );
+
   //per cada clau d'objecte
-  Object.entries(ESSENTIALS).forEach(([key, value]) => {
-    console.log(value);
+  //Object.entries(ESSENTIALS).forEach(([key, value]) => {
+
+  //array objectes ordenada
+    ordered.forEach((obj) => {
+    console.log(obj);
 
     //afageix butó
-    let buto = `<a class="button" id="button${key}">${key}</a>`;
+    let buto = `<a class="button" id="button${obj.key}">${obj.key}</a>`;
     $("#menu").append(buto);
 
     //crea crida butó
-    $(`#button${key}`).on("click", () => {
-      showSection(key);
+    $(`#button${obj.key}`).on("click", () => {
+      showSection(obj.key);
     });
   });
 });

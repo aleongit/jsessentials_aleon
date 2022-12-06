@@ -3,8 +3,10 @@
 //declaració variables compartides
 let text = "";
 let sortida = "";
-let frase= "";
+let frase = "";
+let arra = [];
 
+//object
 const ESSENTIALS = {
   11: {
     src: "js/11.js",
@@ -73,9 +75,9 @@ const ESSENTIALS = {
     que li passem com a paràmetre, aquest array és una llista d’anys de naixement. 
     Els diferents càlculs que ha de fer són:
     <ul>
-        <li><strong>1.</strong>l’edat</li>
-        <li><strong>2.</strong>si són majors d’edat un array de booleans (cert o fals)</li>
-        <li><strong>3.</strong>quants anys els falta per jubilar-se (si ja ho estan retorna -1)</li>
+        <li><strong>>></strong> l’edat</li>
+        <li><strong>>></strong> si són majors d’edat un array de booleans (cert o fals)</li>
+        <li><strong>>></strong> quants anys els falta per jubilar-se (si ja ho estan retorna -1)</li>
     </ul>
     El resultat és mostrarà per la consola.
     L’estructura ha de ser una funció genèrica anomenada per exemple “tractaAnys()” 
@@ -152,6 +154,123 @@ const ESSENTIALS = {
     title: "Strings i Funcions",
     text: `Crea una funció que generi 100 números aleatoris entre 1 i 1000 que no es repeteixin 
     i després mostra'ls per consola ordenats.
+  `,
+  },
+
+  31: {
+    src: "js/31.js",
+    title: "Arrays",
+    text: `Escriviu una funció  que crea una nou array amb valors donats.
+    <br><strong>* Resultat esperat: (3, 'a') => ['a', 'a', 'a']</strong>
+  `,
+  },
+
+  32: {
+    src: "js/32.js",
+    title: "Arrays",
+    text: `Escriviu una funció que elimini de l’array tots els elements innecessaris, 
+    com ara cadenes buides, falses, indefinides, zero, nul·les
+    <br><strong>* Resultat esperat: [0, 1, false, 2, undefined, '', 3, null] => [1, 2, 3]</strong>
+  `,
+  },
+
+  33: {
+    src: "js/33.js",
+    title: "Arrays",
+    text: `Fes una funció javascript per clonar un array que li passem com a paràmetre.
+  `,
+  },
+
+  34: {
+    src: "js/34.js",
+    title: "Arrays",
+    text: `Fes una funció en javascript que retorni el primer element d’un array 
+    que li passem com a paràmetre, en cas que tingui 2 paràmetres, 
+    el segon element indicarà que retorni el n primers elements:
+    <br><strong>Exemple de crida:
+    <br>console.log(primers([7, 9, 0, -2])); retorna: 7
+    <br>console.log(primers(“un text”,3)); retorna: el paràmetre no és un array
+    <br>console.log(primers([7, 9, 0, -2],3)); retorna [7, 9, 0]
+    <br>console.log(primers([7, 9, 0, -2],-4)); retorna []</strong>
+  `,
+  },
+
+  35: {
+    src: "js/35.js",
+    title: "Arrays",
+    text: `Fes una funció en javascript que donat un array numèric, i utlitzant funcions de fletxa:
+    <ul>
+    <li><strong>>></strong> una funció que mostra quants nombres senars hi ha
+    <li><strong>>></strong> una funció que  retorna la mitjana de tots els elements de l’array
+    <li><strong>>></strong> una funció que retorna el més gran
+    <li><strong>>></strong> una funció que retorna el més petit
+    </ul>
+  `,
+  },
+
+  36: {
+    src: "js/36.js",
+    title: "Arrays",
+    text: `Fes una funció en javascript que donat un array retorni 
+    quin és l’element que té més repeticions.
+    <br><strong>var arr = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3]
+    Sortida a - 5 vegades</strong>.
+  `,
+  },
+
+  37: {
+    src: "js/37.js",
+    title: "Arrays",
+    text: `Fer un programa que:
+    <ul>
+    <li><strong>1.</strong> Demani 6 números per teclat i els posis en un array,
+    <li><strong>2.</strong> En una funció ha de mostrar tots els elements de l'array en el body 
+       amb una llista desordenada (un a un "forEach") i en la consola (de cop),
+    <li><strong>3.</strong> Ordenar i mostrar l'array numèricament (reutilitzem el mostrar)
+    <li><strong>4.</strong> Girar l'array i mostra’l
+    <li><strong>5.</strong> Mostra quants elements té l'array
+    <li><strong>6.</strong> Fer una funció que permet cercar un valor introduït per l'usuari i retorni l'índex.
+    <br><strong>Proveu la següent entrada per fer les proves : 
+     1000, 101, 121, 13, 15, 11111</strong>
+  `,
+  },
+
+  38: {
+    src: "js/38.js",
+    title: "Arrays",
+    text: `Donat un array multidimensional, on cada element és un array de tres elements:
+    <br><strong>Preu Unitari / Unitats / IVA
+    <br>Exemple: [[100,10,0.10,], [200,1,0.21], … ]</strong>
+    <br>
+    Fes una funció que genera l’array de 100 elements amb dades aleatòries, seguint 
+    les següents premises (imports entre 1 i 1000, IVA 10% o 21%, i quantitats entre 1 i 10).
+    <br>
+    Fes un script que:
+    <ul>
+    <li><strong>>></strong> Generi un array amb els imports finals</li>
+    <li><strong>>></strong> Generi un array amb l’IVA</li>
+    <li><strong>>></strong> Generi un array amb el PVP unitari</li>
+    <li><strong>>></strong> Calculi l’import total</li>
+    <li><strong>>></strong> Calculi l’import de l’IVA total i desglossat per IVA de 10% i 21%</li>
+    </ul>
+    Cal utilitzar funcions de fletxa, operador ternari, reutilitzar el codi...
+  `,
+  },
+
+  39: {
+    src: "js/39.js",
+    title: "Arrays",
+    text: `Fes una funció que donats 2 arrays, (genera els arrays aleatòriament) 
+    retorni la intersecció, és a dir els elements que estan en ambdós arrays, 
+    aquest array ha de ser únic (cada element només pot aparèixer una vegada).
+  `,
+  },
+
+  310: {
+    src: "js/310.js",
+    title: "Arrays",
+    text: `Fes una funció que comprovi que un array és homogeni,
+    és a dir que tots els elements són del mateix tipus.
   `,
   },
 

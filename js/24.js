@@ -2,7 +2,7 @@
 
 /*4. Fes una funció Javascript que donada una cadena de text: “abska” 
 retorni la cadena ordenada alfabèticament. 
-(Fes una mica de trampa i investiga per internet)*/
+*/
 
 //declarem
 const cadena = "abska";
@@ -22,12 +22,15 @@ const ordena = function(cad) {
     return ajuntada;
 }
 
-document.write("<h1>" + cadena + "</h1>");
-document.write("<h1>" + ordena(cadena) + "</h1>");
+text = "<h1>" + cadena + "</h1>";
+text += "<h1>" + ordena(cadena) + "</h1>";
 
 //fletxa
 const ordenafletxa = cad => cad.split('').sort().join('');
-document.write("<h1>" + ordenafletxa(cadena) + "</h1>");
+text += "<h1>" + ordenafletxa(cadena) + "</h1>";
 
-
+sortida = document.getElementById("section24");
+//console.log(sortida)
+//console.log(sortida.getElementsByTagName("article")[0]);
+sortida.getElementsByTagName("article")[0].innerHTML = text;
 

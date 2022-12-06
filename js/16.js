@@ -50,7 +50,7 @@ switch (op) {
 
 //mostra resultats
 alert(text);
-var sortida = document.getElementById("sortida");
+sortida = document.getElementById("sortida");
 sortida.innerHTML = text;
 
 }

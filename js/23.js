@@ -34,5 +34,5 @@ for (let i = 0; i < dates.length; i++) {
   text += "<h2>" + dates[i] + "</h2>";
 }
 
-sortida = document.getElementById("sortida_section23");
-sortida.innerHTML = text;
+sortida = document.getElementById("section23");
+sortida.getElementsByTagName("article")[0].innerHTML = text;

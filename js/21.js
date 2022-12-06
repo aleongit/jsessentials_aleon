@@ -41,7 +41,7 @@ text += "<h1>" + n1 + " - Número </h1>";
 text += "<h1>" + gira(n1) + " - Número girat </h1>";
 
 //operació amb Number
-var sortida = document.getElementById("sortida");
+sortida = document.getElementById("sortida");
 sortida.innerHTML = text;
 
 }

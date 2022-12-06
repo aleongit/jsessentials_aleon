@@ -35,6 +35,6 @@ const script12 = () => {
   text += "</br>La mitjana és " + suma / conta;
 
   //document.write(text);
-  var sortida = document.getElementById("sortida");
+  sortida = document.getElementById("sortida");
   sortida.innerHTML = text;
 };

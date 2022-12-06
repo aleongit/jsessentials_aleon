@@ -113,5 +113,5 @@ text += processaAnys(anys, (any) => {
   return anyJ;
 });
 
-sortida = document.getElementById("sortida_section22");
-sortida.innerHTML = text;
+sortida = document.getElementById("section22");
+sortida.getElementsByTagName("article")[0].innerHTML = text;

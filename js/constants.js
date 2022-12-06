@@ -1,5 +1,6 @@
 "use strict";
 
+//declaració variables compartides
 let text = "";
 let sortida ="";
 
@@ -94,6 +95,14 @@ const ESSENTIALS = {
     15-juny-2020
     16-juny-2020
     17-juny-2020;
+  `,
+  },
+
+  24: {
+    src: "js/24.js",
+    title: "Strings i Funcions",
+    text: `Fes una funció Javascript que donada una cadena de text: “abska” 
+    retorni la cadena ordenada alfabèticament.
   `,
   },
 

@@ -28,6 +28,6 @@ const script14 = () => {
 
   //mostra resultats
   //document.write(text);
-  var sortida = document.getElementById("sortida");
+  sortida = document.getElementById("sortida");
   sortida.innerHTML = text;
 };

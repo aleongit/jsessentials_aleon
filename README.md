@@ -3,7 +3,8 @@
 Recopilació d'exercicis essencials JS by aleon.
 
 - **Numbers** 11 to 16
-- **Strings** TODO:
+- **Strings and Functions** 21 to 210
+- **Arrays** TODO:
 
 
 

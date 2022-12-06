@@ -2,7 +2,8 @@
 
 //declaració variables compartides
 let text = "";
-let sortida ="";
+let sortida = "";
+let frase= "";
 
 const ESSENTIALS = {
   11: {
@@ -103,6 +104,54 @@ const ESSENTIALS = {
     title: "Strings i Funcions",
     text: `Fes una funció Javascript que donada una cadena de text: “abska” 
     retorni la cadena ordenada alfabèticament.
+  `,
+  },
+
+  25: {
+    src: "js/25.js",
+    title: "Strings i Funcions",
+    text: `Fes una funció en javaScript que li passem una frase 
+    i retorna la paraula més llarga de la frase.
+  `,
+  },
+
+  26: {
+    src: "js/26.js",
+    title: "Strings i Funcions",
+    text: `Fes una funció en javascript que donada una quantitat d’euros ens retorni el seu valor 
+    en tres tipus de monedes. Utilitza les funcions de callBack, (és a dir funcions com expressions).
+  `,
+  },
+
+  27: {
+    src: "js/27.js",
+    title: "Strings i Funcions",
+    text: `Fes una funció en javascript que retorni el nombre de vegades que un determinat caràcter 
+    apareix en un string.
+  `,
+  },
+
+  28: {
+    src: "js/28.js",
+    title: "Strings i Funcions",
+    text: `Definiu una funció de fletxa dividirXDos que accepta un número i retorna aquest número dividit per 2.
+    Aplica aquesta funció a tots els elements d’un array.
+  `,
+  },
+
+  29: {
+    src: "js/29.js",
+    title: "Strings i Funcions",
+    text: `Crea una funció que rebi un paràmetre, 1 dni, i retorni la lletra. 
+    Si el dni passat té algun error retornarà -1.
+  `,
+  },
+
+  210: {
+    src: "js/210.js",
+    title: "Strings i Funcions",
+    text: `Crea una funció que generi 100 números aleatoris entre 1 i 1000 que no es repeteixin 
+    i després mostra'ls per consola ordenats.
   `,
   },
 

@@ -19,8 +19,10 @@ const euro_dollar = euros => euros * USD;
 const euro_pound = euros => euros * GBP;
 const euro_yen = euros => euros * JPY;
 
-document.write("<h3>" + euros + " EUR = </h3>");
-document.write("<h3>" + euro_dollar(euros) + " USD</h3>");
-document.write("<h3>" + euro_pound(euros) + " GBP</h3>");
-document.write("<h3>" + euro_yen(euros) + " YEN</h3>");
+text = "<h3>" + euros + " EUR = </h3>";
+text += "<h3>" + euro_dollar(euros) + " USD</h3>";
+text += "<h3>" + euro_pound(euros) + " GBP</h3>";
+text += "<h3>" + euro_yen(euros) + " YEN</h3>";
 
+sortida = document.getElementById("section26");
+sortida.getElementsByTagName("article")[0].innerHTML = text;

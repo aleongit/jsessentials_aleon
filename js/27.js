@@ -4,8 +4,8 @@
 apareix en un string.*/
 
 //declarem
-const frase = "Fes una funció en javascript que retorni el nombre de vegades que un determinat caràcter apareix en un string";
-const c = "v";
+frase = "Fes una funció en javascript que retorni el nombre de vegades que un determinat caràcter apareix en un string";
+const c = "a";
 
 const contaC = (frase, c) => {
     let conta = 0;
@@ -15,6 +15,9 @@ const contaC = (frase, c) => {
     }
     return conta; }
 
-document.write("<h4>" + frase + "</h4>");
-document.write("<h4>" + c + "</h4>");
-document.write("<h4>" + contaC(frase,c) + " vegades</h4>");
+text = "<h4>" + frase + "</h4>";
+text += "<h4>" + c + "</h4>";
+text += "<h4>" + contaC(frase,c) + " vegades</h4>";
+
+sortida = document.getElementById("section27");
+sortida.getElementsByTagName("article")[0].innerHTML = text;

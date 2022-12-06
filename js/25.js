@@ -4,13 +4,13 @@
 i retorna la paraula més llarga de la frase.*/
 
 //declarem
-let frase = "Fes una funció en javaScript que li passem una frase i retorna la paraula més llarga de la frase";
+frase = "Fes una funció en javaScript que li passem una frase i retorna la paraula més llarga de la frase";
 
 //dividir
 //buscar max de lenght
 
-document.write("<h3>Frase: </h3>");
-document.write("<h4>" + frase + "</h4><br>");
+text = "<h3>Frase: </h3>";
+text += "<h4>" + frase + "</h4>";
 
 const mesLlarga = function(cad) {
     
@@ -40,5 +40,9 @@ const mesLlarga = function(cad) {
     }
     return llarga;
 }
-document.write("<h3>Paraula més llarga: </h3>");
-document.write("<h4><mark>" + mesLlarga(frase) + "</mark></h4>");
+
+text += "<h3>Paraula més llarga: </h3>";
+text += "<h4><mark>" + mesLlarga(frase) + "</mark></h4>";
+
+sortida = document.getElementById("section25");
+sortida.getElementsByTagName("article")[0].innerHTML = text;

@@ -143,7 +143,7 @@ const ESSENTIALS = {
     text: `Fes una funció en javascript que retorni el nombre de vegades que un determinat caràcter 
     apareix en un string.
   `,
-  order: 2,
+    order: 2,
   },
 
   28: {
@@ -298,6 +298,54 @@ const ESSENTIALS = {
     és a dir que tots els elements són del mateix tipus.
   `,
     order: 3,
+  },
+
+  41: {
+    src: "js/41.js",
+    title: "DOM",
+    text: `Aquí teniu un codi HTML  amb un botó:
+    Modifica l’estil botó a través de codi javascript de la funció js_style, 
+    mida del text 14, lletra la que vulgueu  i color de la lletra verd.
+  `,
+    code: `<!DOCTYPE html>
+  <html><head><meta charset=utf-8 />
+  <title>JS DOM paragraph style</title>
+  </head>
+  <body>
+      <p id ='text'>JavaScript Exercises</p> 
+  <div>
+      <button id="button41" onclick="script41()">Style</button>
+  </div>
+  </body></html>`,
+    order: 4,
+  },
+
+  42: {
+    src: "js/42.js",
+    title: "DOM",
+    text: `Fes un programa javascript per modificar el color 
+    (cada paràgraf d’un color diferent) de la pàgina HTML (amb un bucle for).
+  `,
+    code: `<!DOCTYPE html>
+    <html><head><meta charset=utf-8 />
+    <title>JS DOM paragraph style</title>
+    </head><body>
+    <p id ='text'>JavaScript Exercises</p> 
+    <p>paràgraf 1</p> 
+    <p>paràgraf 2</p> 
+    <p>paràgraf 3</p> 
+    <p>paràgraf 4</p> 
+    </body></html>`,
+    order: 4,
+  },
+
+  43: {
+    src: "js/43.js",
+    title: "DOM",
+    text: `Fes una funció javascript per afegir files en una taula 
+    quan es premi el botó.
+  `,
+    order: 4,
   },
 
   1001: {

@@ -5,6 +5,9 @@ const showSection = (num) => {
   $(".title").empty();
   $(".subtitle").empty();
   $(".text").empty();
+  $(".code").empty();
+
+  $("#code").css("display", "none");
 
   text = ">_";
   sortida = document.getElementById("sortida");
@@ -29,6 +32,12 @@ const showSection = (num) => {
 
   if (ESSENTIALS[num]?.text) {
     $(".text").append(ESSENTIALS[num].text);
+  }
+
+  if (ESSENTIALS[num]?.code) {
+    $("#code").text(ESSENTIALS[num].code);
+    //document.getElementById("jsstyle").style.fontSize = "140px";
+    $("#code").css("display", "block");
   }
 
   //amaguem i mostrem secció

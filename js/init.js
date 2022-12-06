@@ -36,13 +36,7 @@ const showSection = (num) => {
   $(`#section${num}`).show();
 };
 
-//document ready
-$(function () {
-  console.log("jQuery ready init.js");
-
-  //init section
-  showSection(0);
-
+const exercisesOrdered = () => {
   /*order by key*/
   /*
   const ordered = Object.keys(ESSENTIALS).sort().reduce(
@@ -58,7 +52,7 @@ $(function () {
   /*order by property*/
   /*
   al no ser una ARRAY d'objectes iguals,
-  creem una array d'objectes amb nom'és key i ordenació (order)
+  creem una array d'objectes amb només key i ordenació (order)
   */
   const ordered = Object.entries(ESSENTIALS).map(([k, v]) => {
     let obj = {
@@ -78,11 +72,21 @@ $(function () {
     a.order > b.order ? 1 : a.order === b.order ? (a.key > b.key ? 1 : -1) : -1
   );
 
+  return ordered;
+};
+
+//document ready
+$(function () {
+  console.log("jQuery ready init.js");
+
+  //init section
+  showSection(0);
+
   //per cada clau d'objecte
   //Object.entries(ESSENTIALS).forEach(([key, value]) => {
 
   //array objectes ordenada
-    ordered.forEach((obj) => {
+  exercisesOrdered().forEach((obj) => {
     console.log(obj);
 
     //afageix butó

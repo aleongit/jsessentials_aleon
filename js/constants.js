@@ -369,6 +369,18 @@ const ESSENTIALS = {
     order: 4,
   },
 
+  51: {
+    src: "js/51.js",
+    title: "Esdeveniments",
+    text: `Cal que feu una pàgina web que simularà una calculadora:
+    podeu utilitzar la funció eval(), que avalua un string matemàticament.
+    eval(“4+3”) retorna 7
+    la idea és fer un string que concatena tots els caràcters dels botons 
+    que són premut i quan es prem l’igual s’avalua.
+  `,
+    order: 5,
+  },
+
   1001: {
     src: "js/1001.js",
     title: "Esdeveniments i Efectes amb JQuery",

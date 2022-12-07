@@ -6,6 +6,7 @@ Recopilació d'exercicis essencials JS by aleon.
 - **Strings and Functions** 21 to 210
 - **Arrays** 31 to 310
 - **DOM** 41 to 45
+- **Events** 51
 
 
 ## Requeriments

@@ -243,8 +243,18 @@ td:hover {
   background-color: whitesmoke;
 }
 
-/*form _________________________________________________ */
+/* 44____________________________________________ */
+#taula44 {
+  border-spacing: 0.5rem;
+}
+#taula44 td {
+  border: 1px solid #ddd;
+  width: 10em;
+  padding: 1em;
+  text-align: center;
+}
 
+/*form _________________________________________________ */
 form {
   background-color: aliceblue;
   text-align: left;
@@ -288,16 +298,6 @@ input[type="button"] {
 input[type="submit"]:hover,
 input[type="button"] {
   background-color: #f1efef;
-}
-
-#taula44 {
-  border-spacing: 0.5rem;
-}
-#taula44 td {
-  border: 1px solid #ddd;
-  width: 10em;
-  padding: 1em;
-  text-align: center;
 }
 
 .col-10 {
@@ -384,6 +384,44 @@ footer {
   text-align: center;
   font-family: monospace;
 }
+
+/* 51____________________________________________ */
+#calculadora {
+  margin: 0 auto;
+  width: 28%;
+  min-width: 310px;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  background-color: #e6f2ff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+#calculadora input {
+  width: auto;
+  font-size: 1em;
+  padding: 12px 20px;
+  margin: 8px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#calculadora input[type=text] {
+  width: 11.3em;
+  font-size: 1.5em;
+  padding: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+#calculadora input[type=button] {
+  font-size: 2em;
+  width: 1.5em;
+  padding: 2px 15px;
+}
+
 
 /* 100___________________________________________ */
 #temps {

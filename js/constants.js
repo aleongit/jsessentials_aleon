@@ -348,6 +348,27 @@ const ESSENTIALS = {
     order: 4,
   },
 
+  44: {
+    src: "js/44.js",
+    title: "DOM",
+    text: `Escriviu un formulari on indiqueu una fila i una columna, i un text, 
+    i amb una funció JavaScript que accepti fila, columna 
+    (per identificar una cel·la concreta) 
+    i una cadena actualitzeu el contingut d’aquesta cel·la.
+  `,
+    order: 4,
+  },
+
+  45: {
+    src: "js/45.js",
+    title: "DOM",
+    text: `En aquest exercici, heu d’extreure  el contingut d’una etiqueta de paràgraf i, a continuació, 
+    posa un fons ressaltat groc darrere de paraules de més de vuit caràcters.
+    Podeu fer servir aquest text de mostra.
+  `,
+    order: 4,
+  },
+
   1001: {
     src: "js/1001.js",
     title: "Esdeveniments i Efectes amb JQuery",

@@ -72,9 +72,9 @@ const exercisesOrdered = () => {
   });
 
   /*ordenació per una propietat de l'array d'objectes*/
-  console.log(ordered[0]);
+  //console.log(ordered[0]);
   ordered.sort((a, b) => (a.order > b.order ? 1 : -1));
-  console.log(ordered);
+  //console.log(ordered);
 
   /*doble ordenació*/
   ordered.sort((a, b) =>
@@ -96,7 +96,7 @@ $(function () {
 
   //array objectes ordenada
   exercisesOrdered().forEach((obj) => {
-    console.log(obj);
+    //console.log(obj);
 
     //afageix butó
     let buto = `<a class="button" id="button${obj.key}">${obj.key}</a>`;

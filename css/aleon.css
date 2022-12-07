@@ -244,6 +244,14 @@ td:hover {
 }
 
 /*form _________________________________________________ */
+
+form {
+  background-color: aliceblue;
+  text-align: left;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
 input[type="text"],
 input[type="number"],
 input[type="password"],
@@ -251,8 +259,8 @@ input[type="email"],
 input[type="url"],
 select,
 textarea {
-  width: 200px;
-  padding: 12px;
+  width: 100%;
+  padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
@@ -260,24 +268,36 @@ textarea {
 }
 
 label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
 }
 
 input[type="submit"],
 input[type="button"] {
-  /*background-color:#4d4d4d;*/
-  /*color: white;*/
-  padding: 12px 50px;
+  font-weight: bold;
+  width: 100%;
+  padding: 1rem 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 1rem;
+  margin: 1rem 0;
 }
 
 input[type="submit"]:hover,
 input[type="button"] {
   background-color: #f1efef;
+}
+
+#taula44 {
+  border-spacing: 0.5rem;
+}
+#taula44 td {
+  border: 1px solid #ddd;
+  width: 10em;
+  padding: 1em;
+  text-align: center;
 }
 
 .col-10 {
@@ -306,7 +326,6 @@ input[type="button"] {
 }
 
 .error {
-  float: left;
   width: 100%;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;

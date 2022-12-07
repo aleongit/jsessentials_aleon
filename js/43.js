@@ -7,7 +7,7 @@ quan es premi el botó:
 
 const script43 = () => {
     //obtenir taula
-    let taula = document.getElementById('unaTaula');
+    let taula = document.getElementById('taula43');
     //console.log(taula);
     //console.log(taula.getElementsByTagName('tr'));
 

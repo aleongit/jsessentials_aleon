@@ -1,11 +1,18 @@
 'use strict';
 
-const canvia_contingut = () => {
+/*
+4. Escriviu un formulari on indiqueu una fila i una columna, i un text, 
+    i amb una funció JavaScript que accepti fila, columna 
+    (per identificar una cel·la concreta) 
+    i una cadena actualitzeu el contingut d’aquesta cel·la. 
+*/
 
-    let sortida ="";
+const script44 = () => {
+
+    let text ="";
 
     //obtenir form
-    let form = document.forms['form'];
+    let form = document.forms['form44'];
     //console.log(form);
     //console.log(form.length);
 
@@ -26,7 +33,7 @@ const canvia_contingut = () => {
         //console.log("ok dades");
     
         //obtenir taula
-        let taula = document.getElementById('taula54');
+        let taula = document.getElementById('taula44');
         //console.log(taula);
 
         //obtenir num files i cols taula
@@ -56,21 +63,21 @@ const canvia_contingut = () => {
 
         } else {
             //console.log('valors fora taula');
-            sortida += "* FATAL ERROR * Valors fora taula"
+            text += "* FATAL ERROR * Valors fora taula"
         }
 } else {
         //console.log("algun valor buit");
-        sortida += "* FATAL ERROR * Dades incorrectes"
+        text += "* FATAL ERROR * Dades incorrectes"
     }
 
     //sortida
-    if (sortida) {
+    if (text) {
         //document.getElementById('resultat').style.backgroundColor = 'rgba(238, 255, 2, 0.377)';
-        document.getElementById("resultat").className = "error";
+        document.getElementById("resultat44").className = "error";
     } else {
         //document.getElementById('resultat').style.backgroundColor = 'white';
-        document.getElementById("resultat").className = "";
+        document.getElementById("resultat44").className = "";
     }
-    document.getElementById('resultat').innerHTML = sortida;
+    document.getElementById('resultat44').innerHTML = text;
     
 }

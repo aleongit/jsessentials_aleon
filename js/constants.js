@@ -381,6 +381,25 @@ const ESSENTIALS = {
     order: 5,
   },
 
+  61: {
+    src: "js/61.js",
+    title: "POO",
+    text: `Cotxes (versió javascript antic):
+    <br>Utilitzeu una funció constructora per implementar un cotxe. 
+    <br>Un cotxe té una propietat de marca i velocitat. 
+    <br>La propietat de velocitat és la velocitat actual del cotxe en km / h;
+    <br>Implementar un mètode "accelerar" que augmentarà la velocitat del cotxe en 10 
+      i registrar la nova velocitat a la consola;
+    <br>Implementeu un mètode de "fre" que reduirà la velocitat del cotxe en 5 
+      i registreu la nova velocitat a la consola;
+    <br>Creeu 5 objectes de cotxes i deseu-los en un array.  
+    <br>Treballarem amb  "accelerar" i "frenar" ,
+    <br>mostreu la informació per la consola, mostreu la velocitat al costat. 
+    <br>Afegiu una característica. La velocitat no pot ser negativa
+  `,
+    order: 5,
+  },
+
   1001: {
     src: "js/1001.js",
     title: "Esdeveniments i Efectes amb JQuery",

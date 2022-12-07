@@ -7,6 +7,7 @@ Recopilació d'exercicis essencials JS by aleon.
 - **Arrays** 31 to 310
 - **DOM** 41 to 45
 - **Events** 51
+- **OOP** TODO:
 
 
 ## Requeriments

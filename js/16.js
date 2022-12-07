@@ -52,5 +52,4 @@ switch (op) {
 alert(text);
 sortida = document.getElementById("sortida");
 sortida.innerHTML = text;
-
 }

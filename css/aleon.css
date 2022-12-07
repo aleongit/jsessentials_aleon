@@ -216,6 +216,11 @@ article {
   justify-content: center;
 }
 
+.sortida_seccio {
+  text-align: justify;
+  font-weight: bold;
+}
+
 /* table _______________________________________________ */
 table {
   border-spacing: 0.1rem;

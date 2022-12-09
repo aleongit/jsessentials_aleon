@@ -459,7 +459,7 @@ const ESSENTIALS = {
 
   81: {
     src: "js/81.js",
-    title: "Fetch",
+    title: "Fetch i Promeses",
     text: `Exercici fetch.
     <br>A partir de l’exemple, fes un llistat dels usuaris amb una petició fetch de tots els usuaris de la web 
     https://reqres.in/api/users
@@ -469,6 +469,49 @@ const ESSENTIALS = {
     <br>Fes una altra petició fetch que ens mostri les dades del segon element de l’array
     Que surti el missatge carregant mentre es carreguen les dades
     https://reqres.in/api/users/2.
+  `,
+    order: 7,
+  },
+
+  82: {
+    src: "js/82.js",
+    title: "Fetch i Promeses",
+    text: `Creeu una funció "whereAmI" que prengui com a entrades 
+    un valor de latitud (lat) i un valor de longitud (lng)    
+    <br>Utilitzeu el símbol de graus en comptes de "d".
+    <br>Per als decimals, utilitzeu punts en comptes de comes. 
+    <br>Correcte: 41.40338, 2.17403
+    <br>Incorrecte: 41,40338, 2,17403
+    <br>Indiqueu la coordenada de latitud abans de la de longitud.
+    <br>Comproveu que el primer nombre de la coordenada de latitud estigui entre -90 i 90.
+    <br>Comproveu que el primer nombre de la coordenada de longitud estigui entre -180 i 180.
+    <br>   
+    <br>Feu una "geocodificació inversa" de les coordenades proporcionades. 
+    <br>La geocodificació inversa significa convertir coordenades a una ubicació significativa, 
+    com ara un nom de ciutat i país. 
+    <br>Utilitzeu aquesta API per fer geocodificació inversa: https://geocode.xyz/api.
+    <br>La crida AJAX es farà a un URL amb aquest format:
+    https://geocode.xyz/52.508,13.381?geoit=json . 
+    <br>Utilitzeu l'API de recuperació i prometeu obtenir les dades. 
+    <br>
+    <br>Un cop tingueu les dades, 
+    mireu-les a la consola per veure tots els atributs que heu rebut 
+      sobre la ubicació proporcionada. 
+    <br>Després, utilitzant aquestes dades, registreu un missatge com aquest a la consola:
+     "Esteu a Berlin, Germany" 
+    <br>
+    <br>Encadeneu un mètode .catch fins al final de la cadena de promeses 
+    i registreu els errors a la consola.
+    <br>
+    <br>Ara és hora d'utilitzar les dades rebudes per representar un país. 
+    Per tant, agafeu l'atribut pertinent del resultat de l'API de geocodificació 
+    i connecteu-lo a l'API de països que hem estat utilitzant.
+    <br>
+    <br>Renderitzeu el país i detecteu els errors, tal com hem fet als últims exemples  
+    (fins i tot podeu copiar aquest codi, sense necessitat d'escriure el mateix codi)
+    <br>PROVA 1: 52.508, 13.381 (Latitud, Longitud)
+    <br>PROVA 2: 19.037, 72.873
+    <br>PROVA 3: -33.933, 18.474
   `,
     order: 7,
   },

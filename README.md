@@ -8,6 +8,7 @@ Recopilació d'exercicis essencials JS by aleon.
 - **DOM** 41 to 45
 - **Events** 51
 - **OOP** 61 to 63
+- **Local Storage** 71 to 72
 
 
 ## Requeriments

@@ -435,6 +435,28 @@ const ESSENTIALS = {
     order: 6,
   },
 
+  71: {
+    src: "js/71.js",
+    title: "POO",
+    text: `Fes un formulari per afegir títols de pel·lícules i que el llistat de títols surt al final,
+    es desaran en el local storage com parelles key: titol, value: titol , 
+    i només cal que tingui en compte no desar strings buits, 
+    cal que comproveu que el navegador permet utilitzar aquesta funcionalitat. 
+    Afegiu en una llista.
+  `,
+    order: 7,
+  },
+
+  72: {
+    src: "js/72.js",
+    title: "POO",
+    text: `Crea un camp textarea que “autodesi” els seus valors en cada canvi (cada lletra premuda).
+    Llavors, si l'usuari tanca accidentalment la pàgina i l'obre de nou, 
+    trobarà la seva entrada inacabada al seu lloc.
+  `,
+    order: 7,
+  },
+
   1001: {
     src: "js/1001.js",
     title: "Esdeveniments i Efectes amb JQuery",

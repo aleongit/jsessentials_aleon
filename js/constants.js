@@ -437,7 +437,7 @@ const ESSENTIALS = {
 
   71: {
     src: "js/71.js",
-    title: "POO",
+    title: "Local Storage",
     text: `Fes un formulari per afegir títols de pel·lícules i que el llistat de títols surt al final,
     es desaran en el local storage com parelles key: titol, value: titol , 
     i només cal que tingui en compte no desar strings buits, 
@@ -449,10 +449,26 @@ const ESSENTIALS = {
 
   72: {
     src: "js/72.js",
-    title: "POO",
+    title: "Local Storage",
     text: `Crea un camp textarea que “autodesi” els seus valors en cada canvi (cada lletra premuda).
     Llavors, si l'usuari tanca accidentalment la pàgina i l'obre de nou, 
     trobarà la seva entrada inacabada al seu lloc.
+  `,
+    order: 7,
+  },
+
+  81: {
+    src: "js/81.js",
+    title: "Fetch",
+    text: `Exercici fetch.
+    <br>A partir de l’exemple, fes un llistat dels usuaris amb una petició fetch de tots els usuaris de la web 
+    https://reqres.in/api/users
+    <br>Mostra els camps id, avatar, Nom i Cognoms, email en una taula, 
+    amb una fila per cada usuari, en aquest ordre.
+    for each és una opció, però també hi ha el map
+    <br>Fes una altra petició fetch que ens mostri les dades del segon element de l’array
+    Que surti el missatge carregant mentre es carreguen les dades
+    https://reqres.in/api/users/2.
   `,
     order: 7,
   },

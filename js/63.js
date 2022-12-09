@@ -125,7 +125,7 @@ const script63 = () => {
   text += JSON.stringify(Electric) + "<br>";
 
   console.log(Electric); //print instància
-  console.log(Electric instanceof Cotxe); // true
+  console.log(Electric instanceof Cotxe63); // true
   console.log(Electric instanceof Ev); // true
   console.log(Electric.marca); //print directe propietat marca
   text += ">> Marca " + Electric.marca + "<br>";

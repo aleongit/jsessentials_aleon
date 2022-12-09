@@ -92,7 +92,7 @@ const script62 = () => {
     text += ">> Pugem a cotxe ";
     text += JSON.stringify(cotxe) + "<br>";
     
-    console.log(cotxe instanceof Cotxe); // true
+    console.log(cotxe instanceof CotxeES6); // true
     
     text += ">> Marca " + cotxe.marca + "<br>";
     console.log(cotxe.marca); //print directe propietat marca
@@ -110,7 +110,7 @@ const script62 = () => {
     text += ">> Velocitat " + cotxe.velocitat + "<br>";
     console.log(cotxe.velocitat);
 
-    console.log(Cotxe.prototype.isPrototypeOf(cotxe)); //true
+    console.log(CotxeES6.prototype.isPrototypeOf(cotxe)); //true
 
     //frenem n vegades
     let n = 50;

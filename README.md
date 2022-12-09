@@ -10,6 +10,7 @@ Recopilació d'exercicis essencials JS by aleon.
 - **OOP** 61 to 63
 - **Local Storage** 71 to 72
 - **Fetch and Promises** 81 to 82
+- **jQuery** 91 to 92
 
 
 ## Requeriments

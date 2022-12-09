@@ -516,22 +516,32 @@ const ESSENTIALS = {
     order: 7,
   },
 
-  1001: {
-    src: "js/1001.js",
+  91: {
+    src: "js/91.js",
+    title: "Mètodes per a manipular DOM amb JQuery",
+    text: `   
+    Cal que utilitzeu empty, append, prepend, i eq 
+    per situar-vos a l’element de l’array que us interessi.
+    `,
+    order: 9,
+  },
+
+  92: {
+    src: "js/92.js",
     title: "Esdeveniments i Efectes amb JQuery",
     text: `   
     1. Fer un botó que faci scroll fins al final de la pàgina (ajuda: animate)
-    2. Deshabilitar el botó dret del mouse 
-    3. Deshabilitar el botó de submit fins que no hagin acceptar un check 
-    4. Fer un text intermitent. 
-    5. Fer un input de tipus description limitat a 15 caràcters (ajuda: keyup)
-    6. Informa per consola si cliqueu el botó dret o l'esquerra o es fa doble click
-    7. Deshabilitar un link. 
-    8. Comptar el nombre de milisegons que han passats entre els dos clics a un div  
-    9. Fes un efecte d’una pilota (border radius 999) 
+    <br>2. Deshabilitar el botó dret del mouse 
+    <br>3. Deshabilitar el botó de submit fins que no hagin acceptar un check 
+    <br>4. Fer un text intermitent. 
+    <br>5. Fer un input de tipus description limitat a 15 caràcters (ajuda: keyup)
+    <br>6. Informa per consola si cliqueu el botó dret o l'esquerra o es fa doble click
+    <br>7. Deshabilitar un link. 
+    <br>8. Comptar el nombre de milisegons que han passats entre els dos clics a un div  
+    <br>9. Fes un efecte d’una pilota (border radius 999) 
       que rebota al final de la finestra 3 vegades, 
       i cada vegada puja menys i es desplaça cap a la dreta. S’activarà amb un botó.
     `,
-    order: 10,
+    order: 9,
   },
 };

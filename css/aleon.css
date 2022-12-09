@@ -411,7 +411,7 @@ footer {
   display: inline-block;
 }
 
-#calculadora input[type=text] {
+#calculadora input[type="text"] {
   width: 11.3em;
   font-size: 1.5em;
   padding: 10px;
@@ -421,23 +421,22 @@ footer {
   box-sizing: border-box;
 }
 
-#calculadora input[type=button] {
+#calculadora input[type="button"] {
   font-size: 2em;
   width: 1.5em;
   padding: 2px 15px;
 }
 
-
 /* 81____________________________________________ */
 #section81 td {
-max-width: 1rem;
+  max-width: 1rem;
 }
 
 #user {
   background-color: rgb(249, 249, 249);
 }
 
-/* 100___________________________________________ */
+/* 92___________________________________________ */
 #temps {
   text-align: center;
   color: black;
@@ -464,15 +463,21 @@ max-width: 1rem;
   opacity: 0;
 }
 
-.jq {
+/* 91___________________________________________ */
+#div91 {
+  margin: 1rem auto;
   position: relative;
   background-color: tomato;
   width: 40em;
   height: 16em;
-  margin-bottom: 1rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.botons91 {
+  display: flex;
+  flex-flow: column;
 }
 
 .verd {
@@ -489,7 +494,6 @@ max-width: 1rem;
   float: left;
   width: 4em;
   height: 4em;
-
   font-weight: bold;
   padding: 0;
 }

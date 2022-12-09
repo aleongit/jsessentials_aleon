@@ -12,6 +12,7 @@ const showSection = (num) => {
   text = ">_";
   sortida = document.getElementById("sortida");
   sortida.innerHTML = text;
+  $('#reloadme').remove(); //borra si script per id
 
   //amb jquery no anava
   if (ESSENTIALS[num]?.src) {
@@ -19,6 +20,7 @@ const showSection = (num) => {
     var script = document.createElement("script");
     script.setAttribute("src", ESSENTIALS[num].src);
     script.setAttribute("type", "text/javascript");
+    script.setAttribute("id", "reloadme");
     document.head.appendChild(script);
   }
 

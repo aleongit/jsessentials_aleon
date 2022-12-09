@@ -12,7 +12,7 @@ const showSection = (num) => {
   text = ">_";
   sortida = document.getElementById("sortida");
   sortida.innerHTML = text;
-  $('#reloadme').remove(); //borra si script per id
+  $("#reloadme").remove(); //borra si script per id
 
   //amb jquery no anava
   if (ESSENTIALS[num]?.src) {
@@ -28,9 +28,8 @@ const showSection = (num) => {
     $(".title").append(ESSENTIALS[num].title);
   }
 
-  if (ESSENTIALS[num]?.subtitle) {
-    $(".subtitle").append(ESSENTIALS[num].subtitle);
-  }
+  //num exercici
+  $(".subtitle").append(num);
 
   if (ESSENTIALS[num]?.text) {
     $(".text").append(ESSENTIALS[num].text);

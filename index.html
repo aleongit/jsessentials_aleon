@@ -1,467 +1,455 @@
 <!DOCTYPE html>
 <html lang="ca">
-  <!-- meta idioma -->
+<!-- meta idioma -->
 
-  <head>
-    <meta charset="utf-8" />
-    <!--meta joc de caràcters -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- etiqueta per HTML responsive -->
-    <meta name="description" content="" />
-    <meta name="author" content="Aleix Leon" />
+<head>
+  <meta charset="utf-8" />
+  <!--meta joc de caràcters -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- etiqueta per HTML responsive -->
+  <meta name="description" content="" />
+  <meta name="author" content="Aleix Leon" />
 
-    <title>JS Essentials by aleon</title>
-    <!-- títol de la web -->
+  <title>JS Essentials by aleon</title>
+  <!-- títol de la web -->
 
-    <!-- jquery en head abans estils -->
-    <script src="js/jquery-3.6.1.min.js"></script>
+  <!-- jquery en head abans estils -->
+  <script src="js/jquery-3.6.1.min.js"></script>
 
-    <!-- js -->
-    <script
-      type="text/javascript"
-      src="js/constants.js"
-      charset="utf-8"
-    ></script>
-    <script type="text/javascript" src="js/init.js" charset="utf-8"></script>
-    <!--<script type="text/javascript" src="js/11.js" charset="utf-8"></script>-->
+  <!-- js -->
+  <script type="text/javascript" src="js/constants.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/init.js" charset="utf-8"></script>
+  <!--<script type="text/javascript" src="js/11.js" charset="utf-8"></script>-->
 
-    <!-- estils aleon -->
-    <link rel="stylesheet" type="text/css" href="css/aleon.css" />
+  <!-- estils aleon -->
+  <link rel="stylesheet" type="text/css" href="css/aleon.css" />
 
-    <!-- CSS interns -->
-    <style></style>
-  </head>
+  <!-- CSS interns -->
+  <style></style>
+</head>
 
-  <body>
-    <!-- container_________________________________________________________________-->
-    <div class="container">
-      <!-- menú capçalera____________________________________________________________-->
-      <header>
-        <div class="marca">
-          <a class="sense_deco" href="">
-            <h2 class="logo">
-              JS Essentials
-              <span class="blau">{<span class="negre">aleon</span>}</span>
-            </h2>
-          </a>
-        </div>
-        <nav id="menu">
-          <!--<a class='button' href='test.php' >Test</a>-->
-          <a class="button">Home</a>
-          <a class="button">About</a>
-        </nav>
-
-        <!-- fi menú cap __________________________________________________________-->
-      </header>
-
-      <div class="ini">
-        <h2 class="title">* title *</h2>
-        <h3 class="subtitle">* subtitle *</h3>
-        <p class="text">* text *</p>
-        <textarea id="code" rows="10" cols="70"></textarea>
-        <code id="sortida">>_</code>
+<body>
+  <!-- container_________________________________________________________________-->
+  <div class="container">
+    <!-- menú capçalera____________________________________________________________-->
+    <header>
+      <div class="marca">
+        <a class="sense_deco" href="">
+          <h2 class="logo">
+            JS Essentials
+            <span class="blau">{<span class="negre">aleon</span>}</span>
+          </h2>
+        </a>
       </div>
+      <nav id="menu">
+        <!--<a class='button' href='test.php' >Test</a>-->
+        <a class="button">Home</a>
+        <a class="button">About</a>
+      </nav>
 
-      <main>
-        <!-- 0______________________________________________________________ -->
-        <section id="section0">
-          <code>* secció 0 * </code>
-        </section>
+      <!-- fi menú cap __________________________________________________________-->
+    </header>
 
-        <!-- 11______________________________________________________________ -->
-        <section id="section11">
-          <article>
-            <div class="centerflex">
-              <button onclick="script11()">Click!</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 12______________________________________________________________ -->
-        <section id="section12">
-          <article>
-            <div class="centerflex">
-              <button onclick="script12()">Click!</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 13______________________________________________________________ -->
-        <section id="section13">
-          <article>
-            <div class="centerflex">
-              <button onclick="script13()">Click!</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 14______________________________________________________________ -->
-        <section id="section14">
-          <article>
-            <div class="centerflex">
-              <button onclick="script14()">Click!</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 15______________________________________________________________ -->
-        <section id="section15">
-          <article>
-            <div class="centerflex">
-              <button onclick="script15()">Click!</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 16______________________________________________________________ -->
-        <section id="section16">
-          <article>
-            <div class="centerflex">
-              <button onclick="script16()">Click!</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 21______________________________________________________________ -->
-        <section id="section21">
-          <article>
-            <div class="centerflex">
-              <button onclick="script21()">Click!</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 22______________________________________________________________ -->
-        <section id="section22">
-          <article></article>
-        </section>
-
-        <!-- 23______________________________________________________________ -->
-        <section id="section23">
-          <article></article>
-        </section>
-
-        <!-- 24______________________________________________________________ -->
-        <section id="section24">
-          <article></article>
-        </section>
-
-        <!-- 25______________________________________________________________ -->
-        <section id="section25">
-          <article></article>
-        </section>
-
-        <!-- 26______________________________________________________________ -->
-        <section id="section26">
-          <article></article>
-        </section>
-
-        <!-- 27______________________________________________________________ -->
-        <section id="section27">
-          <article></article>
-        </section>
-
-        <!-- 28______________________________________________________________ -->
-        <section id="section28">
-          <article></article>
-        </section>
-
-        <!-- 29______________________________________________________________ -->
-        <section id="section29">
-          <article>
-            <div class="centerflex">
-              <button onclick="script29()">Click!</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 210______________________________________________________________ -->
-        <section id="section210">
-          <article></article>
-        </section>
-
-        <!-- 31______________________________________________________________ -->
-        <section id="section31">
-          <article></article>
-        </section>
-
-        <!-- 32______________________________________________________________ -->
-        <section id="section32">
-          <article></article>
-        </section>
-
-        <!-- 33______________________________________________________________ -->
-        <section id="section33">
-          <article></article>
-        </section>
-
-        <!-- 34______________________________________________________________ -->
-        <section id="section34">
-          <article></article>
-        </section>
-
-        <!-- 35______________________________________________________________ -->
-        <section id="section35">
-          <article></article>
-        </section>
-
-        <!-- 36______________________________________________________________ -->
-        <section id="section36">
-          <article></article>
-        </section>
-
-        <!-- 37______________________________________________________________ -->
-        <section id="section37">
-          <article>
-            <div class="centerflex">
-              <button onclick="script37()">Click!</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 38______________________________________________________________ -->
-        <section id="section38">
-          <article></article>
-        </section>
-
-        <!-- 39______________________________________________________________ -->
-        <section id="section39">
-          <article></article>
-        </section>
-
-        <!-- 310______________________________________________________________ -->
-        <section id="section310">
-          <article></article>
-        </section>
-
-        <!-- 41______________________________________________________________ -->
-        <section id="section41">
-          <article>
-            <div class="centerflex">
-              <button onclick="script41_change()">Change!</button>
-              <button onclick="script41_reset()">Reset!</button>
-            </div>
-            <div class="centerflex">
-              <button id="boto41">Botó</button>
-            </div>
-          </article>
-        </section>
-
-        <!-- 42______________________________________________________________ -->
-        <section id="section42">
-          <article>
-            <div class="centerflex">
-              <button onclick="script42()">Click!</button>
-            </div>
-            <p>paràgraf 1</p>
-            <p>paràgraf 2</p>
-            <p>paràgraf 3</p>
-            <p>paràgraf 4</p>
-          </article>
-        </section>
-
-        <!-- 43______________________________________________________________ -->
-        <section id="section43">
-          <article>
-            <div class="centerflex">
-              <button onclick="script43()" value="Nova fila">Click!</button>
-            </div>
-            <table id="taula43">
-              <tr>
-                <td>F1 cel·la 1</td>
-                <td>F1 cel·la 2</td>
-                <td>F1 cel·la 3</td>
-              </tr>
-              <tr>
-                <td>F2 cel·la 1</td>
-                <td>F2 cel·la 2</td>
-                <td>F2 cel·la 3</td>
-              </tr>
-            </table>
-          </article>
-        </section>
-
-        <!-- 44______________________________________________________________ -->
-        <section id="section44">
-          <article>
-            <p id="resultat44"></p>
-            <form id="form44">
-              <label for="fila">Fila:</label>
-              <input
-                type="number"
-                id="fila"
-                name="fila"
-                placeholder="FILA"
-                min="1"
-              />
-              <label for="col">Columna:</label>
-              <input
-                type="number"
-                id="col"
-                name="col"
-                placeholder="COL"
-                min="1"
-              />
-              <label for="txt">Text:</label>
-              <input
-                type="text"
-                id="txt"
-                name="txt"
-                placeholder="Escriu un text"
-              />
-              <input type="button" onclick="script44()" value="Canvia" />
-            </form>
-
-            <table id="taula44">
-              <tr>
-                <td>Row1 cell1</td>
-                <td>Row1 cell2</td>
-              </tr>
-              <tr>
-                <td>Row2 cell1</td>
-                <td>Row2 cell2</td>
-              </tr>
-              <tr>
-                <td>Row3 cell1</td>
-                <td>Row3 cell2</td>
-              </tr>
-            </table>
-          </article>
-        </section>
-
-        <!-- 45______________________________________________________________ -->
-        <section id="section45">
-          <article>
-            <div class="centerflex">
-              <button onclick="script45()">Click!</button>
-            </div>
-            <p>
-              Lorem Ipsum és un text de farciment usat per la indústria de la
-              tipografia i la impremta. Lorem Ipsum ha estat el text estàndard
-              de la indústria des de l'any 1500, quan un impressor desconegut va
-              fer servir una galerada de text i la va mesclar per crear un
-              llibre de mostres tipogràfiques. No només ha sobreviscut cinc
-              segles, sinó que ha fet el salt cap a la creació de tipus de
-              lletra electrònics, romanent essencialment sense canvis. Es va
-              popularitzar l'any 1960 amb el llançament de fulls Letraset que
-              contenien passatges de Lorem Ipsum, i més recentment amb
-              programari d'autoedició com Aldus Pagemaker que inclou versions de
-              Lorem Ipsum.
-            </p>
-          </article>
-        </section>
-
-        <!-- 51______________________________________________________________ -->
-        <section id="section51">
-          <article>
-            <form id="calculadora">
-              <input
-                type="text"
-                id="pantalla"
-                name="pantalla"
-                value=""
-                readonly
-              /><br />
-
-              <input type="button" class="boto" name="num" value="7" />
-              <input type="button" class="boto" name="num" value="8" />
-              <input type="button" class="boto" name="num" value="9" />
-              <input type="button" class="boto" name="op" value="*" />
-
-              <input type="button" class="boto" name="num" value="4" />
-              <input type="button" class="boto" name="num" value="5" />
-              <input type="button" class="boto" name="num" value="6" />
-              <input type="button" class="boto" name="op" value="-" />
-
-              <input type="button" class="boto" name="num" value="1" />
-              <input type="button" class="boto" name="num" value="2" />
-              <input type="button" class="boto" name="num" value="3" />
-              <input type="button" class="boto" name="op" value="+" />
-
-              <input type="button" class="boto" name="zero" value="0" />
-              <input type="button" class="boto" name="net" value="C" />
-              <input type="button" class="boto" name="res" value="=" />
-              <input type="button" class="boto" name="op" value="/" />
-            </form>
-          </article>
-        </section>
-
-        <!-- 61______________________________________________________________ -->
-        <section id="section61">
-          <article>
-            <div class="centerflex">
-              <button onclick="script61()">Click!</button>
-            </div>
-            <div id="sortida61" class="sortida_seccio"></div>
-          </article>
-        </section>
-
-        <!-- 1001____________________________________________________________ -->
-        <section id="section1001">
-          <!-- 1 -->
-          <article>
-            <div class="centerflex">
-              <button id="b1">Scroll cap abaix</button>
-            </div>
-          </article>
-
-          <!-- 3 -->
-          <article>
-            <input id="check" name="check" type="checkbox" />
-            <label for="check"> Accepto tot el què em diguin</label><br />
-            <input id="b3" type="submit" value="Accepto" disabled />
-          </article>
-
-          <!-- 4 -->
-          <article>
-            <p id="text4">Text intermitent</p>
-          </article>
-
-          <!-- 5 -->
-          <article>
-            <label> <b>* Màxim 15 caràcters *</b></label
-            ><br />
-            <input id="text5" name="text5" type="text" maxlength="15" /><br />
-            <label id="falten"> * Falten 15 caràcters *</label><br />
-          </article>
-
-          <!-- 7 -->
-          <article>
-            <a
-              id="link"
-              target="_blank"
-              href="https://ca.wikipedia.org/wiki/JQuery"
-              >JQuery Wikipedia</a
-            >
-            <div class="centerflex">
-              <button id="b7">Deshabilitar el link de sobre</button>
-            </div>
-          </article>
-
-          <!-- 8 -->
-          <article>
-            <div class="centerflex">
-              <button id="temps">* CLICA'M *</button>
-            </div>
-          </article>
-
-          <!-- 9 -->
-          <article>
-            <div class="centerflex">
-              <button id="butobola">Compte Bola!</button>
-            </div>
-            <div class="centerflex">
-              <div class="containerbola">
-                <div id="bola"></div>
-              </div>
-            </div>
-          </article>
-        </section>
-      </main>
-
-      <footer>
-        <p>© Aleix Leon 2021-22</p>
-      </footer>
+    <div class="ini">
+      <h2 class="title">* title *</h2>
+      <h3 class="subtitle">* subtitle *</h3>
+      <p class="text">* text *</p>
+      <textarea id="code" rows="10" cols="70"></textarea>
+      <code id="sortida">>_</code>
     </div>
-  </body>
+
+    <main>
+      <!-- 0______________________________________________________________ -->
+      <section id="section0">
+        <code>* secció 0 * </code>
+      </section>
+
+      <!-- 11______________________________________________________________ -->
+      <section id="section11">
+        <article>
+          <div class="centerflex">
+            <button onclick="script11()">Click!</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 12______________________________________________________________ -->
+      <section id="section12">
+        <article>
+          <div class="centerflex">
+            <button onclick="script12()">Click!</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 13______________________________________________________________ -->
+      <section id="section13">
+        <article>
+          <div class="centerflex">
+            <button onclick="script13()">Click!</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 14______________________________________________________________ -->
+      <section id="section14">
+        <article>
+          <div class="centerflex">
+            <button onclick="script14()">Click!</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 15______________________________________________________________ -->
+      <section id="section15">
+        <article>
+          <div class="centerflex">
+            <button onclick="script15()">Click!</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 16______________________________________________________________ -->
+      <section id="section16">
+        <article>
+          <div class="centerflex">
+            <button onclick="script16()">Click!</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 21______________________________________________________________ -->
+      <section id="section21">
+        <article>
+          <div class="centerflex">
+            <button onclick="script21()">Click!</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 22______________________________________________________________ -->
+      <section id="section22">
+        <article></article>
+      </section>
+
+      <!-- 23______________________________________________________________ -->
+      <section id="section23">
+        <article></article>
+      </section>
+
+      <!-- 24______________________________________________________________ -->
+      <section id="section24">
+        <article></article>
+      </section>
+
+      <!-- 25______________________________________________________________ -->
+      <section id="section25">
+        <article></article>
+      </section>
+
+      <!-- 26______________________________________________________________ -->
+      <section id="section26">
+        <article></article>
+      </section>
+
+      <!-- 27______________________________________________________________ -->
+      <section id="section27">
+        <article></article>
+      </section>
+
+      <!-- 28______________________________________________________________ -->
+      <section id="section28">
+        <article></article>
+      </section>
+
+      <!-- 29______________________________________________________________ -->
+      <section id="section29">
+        <article>
+          <div class="centerflex">
+            <button onclick="script29()">Click!</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 210______________________________________________________________ -->
+      <section id="section210">
+        <article></article>
+      </section>
+
+      <!-- 31______________________________________________________________ -->
+      <section id="section31">
+        <article></article>
+      </section>
+
+      <!-- 32______________________________________________________________ -->
+      <section id="section32">
+        <article></article>
+      </section>
+
+      <!-- 33______________________________________________________________ -->
+      <section id="section33">
+        <article></article>
+      </section>
+
+      <!-- 34______________________________________________________________ -->
+      <section id="section34">
+        <article></article>
+      </section>
+
+      <!-- 35______________________________________________________________ -->
+      <section id="section35">
+        <article></article>
+      </section>
+
+      <!-- 36______________________________________________________________ -->
+      <section id="section36">
+        <article></article>
+      </section>
+
+      <!-- 37______________________________________________________________ -->
+      <section id="section37">
+        <article>
+          <div class="centerflex">
+            <button onclick="script37()">Click!</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 38______________________________________________________________ -->
+      <section id="section38">
+        <article></article>
+      </section>
+
+      <!-- 39______________________________________________________________ -->
+      <section id="section39">
+        <article></article>
+      </section>
+
+      <!-- 310______________________________________________________________ -->
+      <section id="section310">
+        <article></article>
+      </section>
+
+      <!-- 41______________________________________________________________ -->
+      <section id="section41">
+        <article>
+          <div class="centerflex">
+            <button onclick="script41_change()">Change!</button>
+            <button onclick="script41_reset()">Reset!</button>
+          </div>
+          <div class="centerflex">
+            <button id="boto41">Botó</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- 42______________________________________________________________ -->
+      <section id="section42">
+        <article>
+          <div class="centerflex">
+            <button onclick="script42()">Click!</button>
+          </div>
+          <p>paràgraf 1</p>
+          <p>paràgraf 2</p>
+          <p>paràgraf 3</p>
+          <p>paràgraf 4</p>
+        </article>
+      </section>
+
+      <!-- 43______________________________________________________________ -->
+      <section id="section43">
+        <article>
+          <div class="centerflex">
+            <button onclick="script43()" value="Nova fila">Click!</button>
+          </div>
+          <table id="taula43">
+            <tr>
+              <td>F1 cel·la 1</td>
+              <td>F1 cel·la 2</td>
+              <td>F1 cel·la 3</td>
+            </tr>
+            <tr>
+              <td>F2 cel·la 1</td>
+              <td>F2 cel·la 2</td>
+              <td>F2 cel·la 3</td>
+            </tr>
+          </table>
+        </article>
+      </section>
+
+      <!-- 44______________________________________________________________ -->
+      <section id="section44">
+        <article>
+          <p id="resultat44"></p>
+          <form id="form44">
+            <label for="fila">Fila:</label>
+            <input type="number" id="fila" name="fila" placeholder="FILA" min="1" />
+            <label for="col">Columna:</label>
+            <input type="number" id="col" name="col" placeholder="COL" min="1" />
+            <label for="txt">Text:</label>
+            <input type="text" id="txt" name="txt" placeholder="Escriu un text" />
+            <input type="button" onclick="script44()" value="Canvia" />
+          </form>
+
+          <table id="taula44">
+            <tr>
+              <td>Row1 cell1</td>
+              <td>Row1 cell2</td>
+            </tr>
+            <tr>
+              <td>Row2 cell1</td>
+              <td>Row2 cell2</td>
+            </tr>
+            <tr>
+              <td>Row3 cell1</td>
+              <td>Row3 cell2</td>
+            </tr>
+          </table>
+        </article>
+      </section>
+
+      <!-- 45______________________________________________________________ -->
+      <section id="section45">
+        <article>
+          <div class="centerflex">
+            <button onclick="script45()">Click!</button>
+          </div>
+          <p>
+            Lorem Ipsum és un text de farciment usat per la indústria de la
+            tipografia i la impremta. Lorem Ipsum ha estat el text estàndard
+            de la indústria des de l'any 1500, quan un impressor desconegut va
+            fer servir una galerada de text i la va mesclar per crear un
+            llibre de mostres tipogràfiques. No només ha sobreviscut cinc
+            segles, sinó que ha fet el salt cap a la creació de tipus de
+            lletra electrònics, romanent essencialment sense canvis. Es va
+            popularitzar l'any 1960 amb el llançament de fulls Letraset que
+            contenien passatges de Lorem Ipsum, i més recentment amb
+            programari d'autoedició com Aldus Pagemaker que inclou versions de
+            Lorem Ipsum.
+          </p>
+        </article>
+      </section>
+
+      <!-- 51______________________________________________________________ -->
+      <section id="section51">
+        <article>
+          <form id="calculadora">
+            <input type="text" id="pantalla" name="pantalla" value="" readonly /><br />
+
+            <input type="button" class="boto" name="num" value="7" />
+            <input type="button" class="boto" name="num" value="8" />
+            <input type="button" class="boto" name="num" value="9" />
+            <input type="button" class="boto" name="op" value="*" />
+
+            <input type="button" class="boto" name="num" value="4" />
+            <input type="button" class="boto" name="num" value="5" />
+            <input type="button" class="boto" name="num" value="6" />
+            <input type="button" class="boto" name="op" value="-" />
+
+            <input type="button" class="boto" name="num" value="1" />
+            <input type="button" class="boto" name="num" value="2" />
+            <input type="button" class="boto" name="num" value="3" />
+            <input type="button" class="boto" name="op" value="+" />
+
+            <input type="button" class="boto" name="zero" value="0" />
+            <input type="button" class="boto" name="net" value="C" />
+            <input type="button" class="boto" name="res" value="=" />
+            <input type="button" class="boto" name="op" value="/" />
+          </form>
+        </article>
+      </section>
+
+      <!-- 61______________________________________________________________ -->
+      <section id="section61">
+        <article>
+          <div class="centerflex">
+            <button onclick="script61()">Click!</button>
+          </div>
+          <div id="sortida61" class="sortida_seccio"></div>
+        </article>
+      </section>
+
+      <!-- 62______________________________________________________________ -->
+      <section id="section62">
+        <article>
+          <div class="centerflex">
+            <button onclick="script62()">Click!</button>
+          </div>
+          <div id="sortida62" class="sortida_seccio"></div>
+        </article>
+      </section>
+
+      <!-- 63______________________________________________________________ -->
+      <section id="section63">
+        <article>
+          <div class="centerflex">
+            <button onclick="script63()">Click!</button>
+          </div>
+          <div id="sortida63" class="sortida_seccio"></div>
+        </article>
+      </section>
+
+      <!-- 1001____________________________________________________________ -->
+      <section id="section1001">
+        <!-- 1 -->
+        <article>
+          <div class="centerflex">
+            <button id="b1">Scroll cap abaix</button>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article>
+          <input id="check" name="check" type="checkbox" />
+          <label for="check"> Accepto tot el què em diguin</label><br />
+          <input id="b3" type="submit" value="Accepto" disabled />
+        </article>
+
+        <!-- 4 -->
+        <article>
+          <p id="text4">Text intermitent</p>
+        </article>
+
+        <!-- 5 -->
+        <article>
+          <label> <b>* Màxim 15 caràcters *</b></label><br />
+          <input id="text5" name="text5" type="text" maxlength="15" /><br />
+          <label id="falten"> * Falten 15 caràcters *</label><br />
+        </article>
+
+        <!-- 7 -->
+        <article>
+          <a id="link" target="_blank" href="https://ca.wikipedia.org/wiki/JQuery">JQuery Wikipedia</a>
+          <div class="centerflex">
+            <button id="b7">Deshabilitar el link de sobre</button>
+          </div>
+        </article>
+
+        <!-- 8 -->
+        <article>
+          <div class="centerflex">
+            <button id="temps">* CLICA'M *</button>
+          </div>
+        </article>
+
+        <!-- 9 -->
+        <article>
+          <div class="centerflex">
+            <button id="butobola">Compte Bola!</button>
+          </div>
+          <div class="centerflex">
+            <div class="containerbola">
+              <div id="bola"></div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>© Aleix Leon 2021-22</p>
+    </footer>
+  </div>
+</body>
+
 </html>

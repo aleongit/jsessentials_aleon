@@ -5,12 +5,12 @@ Torneu a programar  l’exercici1, però aquesta vegada amb una classe ES6
 */
 
 //constants
-const A = 20;
-const F = 5;
+ACC = 20;
+FRE = 5;
 
 //classes ES6
 //classe cotxe
-class Cotxe {
+class CotxeES6 {
 
 constructor(m, v) {
   //propietats i inicialització
@@ -22,14 +22,14 @@ constructor(m, v) {
 // s'afegiran al prototipus
 
 accelerar() {
-  this.velocitat += A;
+  this.velocitat += ACC;
   console.log(this.velocitat + ' km/h' );
 }
 
 fre() {
   //control velocitat negativa
-  if ( (this.velocitat - F ) >= 0 ) {
-    this.velocitat -= F;
+  if ( (this.velocitat - FRE ) >= 0 ) {
+    this.velocitat -= FRE;
     }
   console.log(this.velocitat + ' km/h' );
 }
@@ -58,30 +58,74 @@ set velocitat(v) {
 
 }
 
-//Creeu 5 objectes de cotxes i deseu-los en un array.
-//noves instàncies js antic
+const script62 = () => {
+  text = "";
+  text += ">> Creant cotxes<br>";
 
-const Cotxe1 = new Cotxe('BMW', 300);
-const Cotxe2 = new Cotxe('Ferrari', 500);
-const Cotxe3 = new Cotxe('Seat', 60);
-const Cotxe4 = new Cotxe('Peugeot', 100);
-const Cotxe5 = new Cotxe('Nissan', 120);
+  const Cotxe1 = new CotxeES6("BMW", 300);
+  const Cotxe2 = new CotxeES6("Ferrari", 500);
+  const Cotxe3 = new CotxeES6("Seat", 60);
+  const Cotxe4 = new CotxeES6("Peugeot", 100);
+  const Cotxe5 = new CotxeES6("Nissan", 120);
 
-//cotxes a array
-let cotxes = [Cotxe1, Cotxe2, Cotxe3, Cotxe4, Cotxe5];
+  text += ">> Creat Cotxe1<br>";
+  text += JSON.stringify(Cotxe1) + "<br>";
+  text += ">> Creat Cotxe2<br>";
+  text += JSON.stringify(Cotxe2) + "<br>";
+  text += ">> Creat Cotxe3<br>";
+  text += JSON.stringify(Cotxe3) + "<br>";
+  text += ">> Creat Cotxe4<br>";
+  text += JSON.stringify(Cotxe4) + "<br>";
+  text += ">> Creat Cotxe5<br>";
+  text += JSON.stringify(Cotxe5) + "<br>";
+  text += "<br><br>";
 
-//crides per cada cotxe
-cotxes.forEach( cotxe => {
-  console.log(cotxe); //print instància
-  console.log(cotxe instanceof Cotxe); // true
-  console.log(cotxe.marca); //print directe propietat marca
-  console.log(cotxe.velocitat); //velocitat actual
-  cotxe.accelerar(); //accelerem
-  cotxe.fre(); //fre
+  //cotxes a array
+  let cotxes = [Cotxe1, Cotxe2, Cotxe3, Cotxe4, Cotxe5];
+  text += ">> Guardem cotxes a array<br>";
+  text += JSON.stringify(cotxes) + "<br>";
+  text += "<br><br>";
 
-  //frenem n vegades
-  let n = 50;
-  for(let i = 0; i < n; i++) { cotxe.fre(); }
+  //crides per cada cotxe
+  cotxes.forEach((cotxe) => {
+    console.log(cotxe); //print instància
+    text += ">> Pugem a cotxe ";
+    text += JSON.stringify(cotxe) + "<br>";
+    
+    console.log(cotxe instanceof Cotxe); // true
+    
+    text += ">> Marca " + cotxe.marca + "<br>";
+    console.log(cotxe.marca); //print directe propietat marca
+    
+    text += ">> Velocitat " + cotxe.velocitat + "<br>";
+    console.log(cotxe.velocitat); //velocitat actual
+    
+    text += ">> Accelerem!" + "<br>";
+    cotxe.accelerar(); //accelerem
+    text += ">> Velocitat " + cotxe.velocitat + "<br>";
+    console.log(cotxe.velocitat);
 
-})
+    text += ">> Frenem!" + "<br>";
+    cotxe.fre(); //fre
+    text += ">> Velocitat " + cotxe.velocitat + "<br>";
+    console.log(cotxe.velocitat);
+
+    console.log(Cotxe.prototype.isPrototypeOf(cotxe)); //true
+
+    //frenem n vegades
+    let n = 50;
+    for (let i = 0; i < n; i++) {
+
+      text += ">> Frenem!" + "<br>";
+      cotxe.fre();
+      text += ">> Velocitat " + cotxe.velocitat + "<br>";
+      console.log(cotxe.velocitat);
+    }
+    text += "<br><br>";
+  });
+
+  //sortida;
+  sortida = document.getElementById("sortida62");
+  sortida.innerHTML = text;
+};
 

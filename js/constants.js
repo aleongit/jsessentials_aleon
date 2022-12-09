@@ -5,6 +5,9 @@ let text = "";
 let sortida = "";
 let frase = "";
 let arra = [];
+let ACC = 0;
+let FRE = 5;
+let BAT = 1;
 
 //object
 const ESSENTIALS = {
@@ -397,7 +400,39 @@ const ESSENTIALS = {
     <br>mostreu la informació per la consola, mostreu la velocitat al costat. 
     <br>Afegiu una característica. La velocitat no pot ser negativa
   `,
-    order: 5,
+    order: 6,
+  },
+
+  62: {
+    src: "js/62.js",
+    title: "POO",
+    text: `Torneu a programar  l’exercici1, però aquesta vegada amb una classe ES6.
+  `,
+    order: 6,
+  },
+
+  63: {
+    src: "js/63.js",
+    title: "POO",
+    text: `Herència (ES6).
+    <br>Crea una classe nova, filla de cotxe, per implementar un cotxe elèctric (anomenada Ev).
+    A més de la marca i la velocitat actual, 
+      l'Ev també té la càrrega actual de la bateria en% (propietat de "càrrega");
+    <br>Implementeu un mètode 'chargeBattery' que prengui un argument 'chargeTo' 
+      i estableixi la càrrega de la bateria en 'chargeTo';
+    <br>Implementeu un mètode "accelerar" que augmentarà la velocitat del cotxe en 20 
+      i reduirà la càrrega un 1%. A continuació, registreu un missatge com aquest: 
+        "Tesla anirà a 140 km / h, amb una càrrega del 22%";
+    <br>Creeu un objecte de cotxe elèctric i experimenteu amb les crides  
+      "accelerar", "frenar" i "carregar bateria" (carregar al 90%). 
+    <br>Fixeu-vos en què passa quan "accelereu".
+    <br>A continuació, registreu un missatge com aquest: 
+"Tesla anirà a 140 km / h, amb una càrrega del 22%";
+<br>Creeu un objecte de cotxe elèctric i experimenteu amb les crides  
+"accelerar", "frenar" i "carregar bateria" (carregar al 90%). 
+<br>Fixeu-vos en què passa quan "accelereu".
+  `,
+    order: 6,
   },
 
   1001: {

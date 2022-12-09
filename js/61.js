@@ -16,8 +16,8 @@ Afegiu una característica. La velocitat no pot ser negativa
 */
 
 //constants
-const A = 20;
-const F = 5;
+ACC = 20;
+FRE = 5;
 
 //classe cotxe js antic
 const Cotxe = function (m, v) {
@@ -32,14 +32,14 @@ const Cotxe = function (m, v) {
 //prototypes (mètodes js antic)
 
 Cotxe.prototype.accelerar = function () {
-  this.velocitat += A;
+  this.velocitat += ACC;
   console.log(this.velocitat + " km/h");
 };
 
 Cotxe.prototype.fre = function () {
   //control velocitat negativa
-  if (this.velocitat - F >= 0) {
-    this.velocitat -= F;
+  if (this.velocitat - FRE >= 0) {
+    this.velocitat -= FRE;
   }
   console.log(this.velocitat + " km/h");
 };

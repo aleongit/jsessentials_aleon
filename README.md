@@ -28,3 +28,5 @@ Recopilació d'exercicis essencials JS by aleon.
 - cd jsessentials_aleon
 - **open** index.html in browser
 
+
+![Screenshot](screenshots/1.png)
